@@ -25,7 +25,7 @@ const Hero = () => {
   ];
 
   return (
-    <div className="overflow-hidden relative">
+    <div className="overflow-hidden relative mb-16">
       <Slider {...settings}>
         {images.map((image) => (
           <div key={image.id}>
